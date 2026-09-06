@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e293b;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #38bdf8;
+  font-size: 28px;
+}
+
+header p {
+  color: #cbd5e1;
+}
+
+.container {
+  padding: 30px 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.services h3 {
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h4 {
+  color: #38bdf8;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact h3 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+  font-size: 14px;
+}
